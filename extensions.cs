@@ -6,7 +6,7 @@
 using System;
 using System.Reflection;
 
-namespace Leopotam.EcsLite.Di {
+namespace Sog.EcsLib.Di {
     public static class Extensions {
         public static EcsSystems Inject (this EcsSystems systems, params object[] injects) {
             if (injects == null) { injects = Array.Empty<object> (); }
