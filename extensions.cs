@@ -2,9 +2,11 @@
 // The Proprietary or MIT-Red License
 // Copyright (c) 2012-2022 Leopotam <leopotam@yandex.ru>
 // ----------------------------------------------------------------------------
+#define LEOECSLITE_DI
 
 using System;
 using System.Reflection;
+
 
 namespace Sog.EcsLib.Di {
 #if LEOECSLITE_DI
